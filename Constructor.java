@@ -1,0 +1,19 @@
+class Constructor {
+    String model;
+    String brand;
+    String color;
+    int price;
+
+    public Constructor(String m, String b, String c, int p) {
+        model = m;
+        brand = b;
+        color = c;
+        price = p;
+    }
+
+    public static void main(String[] args) {
+        Constructor c = new Constructor("s23", "samsang", "silver", 35000);
+        System.out.println(c.model + "\n" + c.brand + "\n" + c.color + "\n" + c.price);
+
+    }
+}
