@@ -8,12 +8,11 @@ class Constructor {
         model = m;
         brand = b;
         color = c;
-        price = p;
     }
 
     public static void main(String[] args) {
-        Constructor c = new Constructor("s23", "samsang", "silver", 35000);
-        System.out.println(c.model + "\n" + c.brand + "\n" + c.color + "\n" + c.price);
+        Constructor c = new Constructor("s23", "samsang", "silver", );
+        System.out.println(c.model + "\n" + c.brand + "\n" + c.color + "\n" );
 
     }
 }
